@@ -1,0 +1,167 @@
+/* --------------
+       body start
+        ----------------  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+}
+/* ----------------
+    header start   
+-------------------*/
+header {
+  width: 100%;
+  height: 677px;
+  background-color: #2d25a0;
+  margin-bottom: 70px;
+}
+header:hover {
+  background-color: rgb(65, 19, 92);
+}
+.manu a {
+  text-decoration: none;
+  margin-left: 35px;
+}
+.manubar a {
+  margin-right: 10px;
+  color: white;
+}
+
+.manubar {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+.header-title {
+  display: flex;
+  margin: 0px 155px;
+}
+span {
+  background-color: #e93074;
+  padding: 4px 10px;
+  color: white;
+  border-radius: 5px;
+}
+.fas {
+  color: white;
+  margin-left: 10px;
+}
+.header-title {
+  color: white;
+}
+.header-info h1 {
+  font-size: 64px;
+}
+.header-img img {
+  width: 556.01px;
+  height: 438px;
+}
+
+/*---------------
+ project deyails main
+ ----------------- */
+
+.players img {
+  width: 325px;
+  height: 256px;
+}
+.players {
+  background-color: #ffffff;
+  width: 330px;
+  height: 474px;
+  align-items: flex-start;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  margin: 15px;
+}
+.player-detail {
+  width: 325px;
+  height: 154px;
+}
+.player-detail p {
+  font-weight: 100px;
+  color: rgb(91, 95, 95);
+}
+.top-player {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+/* section-2 start  */
+
+.header-title-2 {
+  display: flex;
+  margin: 0px 155px;
+  padding: 23px;
+}
+/* section-3 area  */
+
+.containar-3 img {
+  width: 483.87px;
+  height: 110px;
+}
+.logo {
+  text-align: center;
+}
+/* ---------------
+    footer start 
+    ------------ */
+footer {
+  background-color: rgb(139, 210, 231);
+  padding: 30px;
+}
+
+.footer-nev a {
+  font-size: 20px;
+  background-color: darkgrey;
+  color: rgb(247, 222, 222);
+  padding: 0 5px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.footer-nev {
+  text-align: center;
+}
+
+/* -------------------
+    Media Queries
+   ----------------------- */
+
+/* Mobile Devises */
+
+@media only screen and (max-width: 688px) {
+  header {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header-title {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .header-img img {
+    width: 220px;
+    height: 220px;
+  }
+  .header-info h1 {
+    font-size: 30px;
+    width: 150px;
+    height: 150px;
+  }
+  .header-title {
+    margin: 0 auto;
+  }
+  .header-title-2 {
+    margin: 0 auto;
+  }
+  .containar-3 img {
+    width: 250px;
+    height: 80px;
+    margin: 0 auto;
+  }
+}
